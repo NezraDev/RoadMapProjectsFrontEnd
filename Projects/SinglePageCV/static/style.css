@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    font-family: 'Lexend', sans-serif;
+    align-items: center; 
+    justify-content: center;    
+}
+.border-box{
+    width: 500px;
+    padding: 3.5rem;
+    border: 1px solid black;
+}
+.header-line{
+    width: 450px;
+    border: 1px solid black;
+}
+.green-text{
+    color: rgb(6, 179, 6);
+}
