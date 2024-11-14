@@ -16,3 +16,6 @@ body{
 .green-text{
     color: rgb(6, 179, 6);
 }
+.info-container{
+    margin-bottom: 2rem;
+}
