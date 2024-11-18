@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lexend", serif;
+    
+}
+.container{
+    width: 1000px;
+    border: 3px solid black;
+}
+h2{
+    font-size: 1.2rem;
+}
+.navigation{
+    display: flex;
+    list-style: none;
+}
+.nav{
+    margin-right: 0.5rem;
+}
+.nav span{
+    margin-left: 0.5rem;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0rem 1rem 0rem 1rem;
+}
+.role{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    border-top: 3px solid black;
+}
+.credentials{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+.projects{
+    margin:0;
+    padding: 0
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    border-top: 3px solid black;
+    padding: 1rem;
+    width: 200px;
+}
+.second-section{
+    border-left: 3px solid black;
+}
+.third-section{
+    border-left: 3px solid black;
+}
+.work-info{
+    padding-left: 1rem;
+}   
+a{
+    text-decoration: none;
+}
+.profile{
+    padding-left: 1rem;
+    font-weight: 400;
+    color: #5092d0;
+    text-decoration: none;
+    font-weight: 600;
+}
+.work-experience{
+    border-bottom: 3px solid black;
+}
+.open-source-info{
+    padding-left: 1rem;
+}
+.education-info{
+    width: 250px;
+    padding-left: 1rem;
+}
+.courses{
+    margin: 0;
+    padding: 0.5rem;
+}
+.course{
+    
+    width: 280px;
+    list-style: none;
+    padding: 0.5rem;
+}
